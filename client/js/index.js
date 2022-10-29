@@ -287,8 +287,8 @@ sock.on('loadMatrix', (data) => {
 
     clientRender(data);
 
-    const timerObject = new ChatObject({ message: "" });
-    timerObject.runTimer();
+    // const timerObject = new ChatObject({ message: "" });
+    // timerObject.runTimer();
 
     missionObjectArr.forEach(mission => {
         mission.justPrintLarge();
