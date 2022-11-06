@@ -3,7 +3,7 @@ class Item {
         this.itemLable = config.itemLable;
         this.itemId = config.itemId;
         
-        this.color = config.color || "#111";
+        this.color = config.color || "#777";
         this.returnValue = typeof config.returnValue === "undefined" ? true : config.returnValue;
         this.font = config.font || "17px Times New Roman";
         this.rowValue = config.rowValue || 21;

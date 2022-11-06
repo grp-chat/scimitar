@@ -58,12 +58,12 @@ class GridSystem {
 
         //this.extraArr = ["TCR", "LOK", "LK", "JHA", "JV", "JL", "SZF", "H", "TJY", "KX"];
         //this.extraArr = ["TCR", "JX", "JZ", "TWN", "LJY", "LSH", "ELI", "CUR", "RYD", "CT"];
-        this.extraArr = ["TCR", "LOK", "KSY", "KN", "JT", "CJH", "CED", "KX", "TJY", "LSH"];
+        this.extraArr = ["TCR", "LOK", "JHA", "KN", "JT", "CJH", "CED", "KX", "TJY", "LSH", "SZF"];
 
         //this.p1 = { x: 1, y: 1, lable: 2, id: this.extraArr[0], steps: this.startingSteps, area: "mainArea", wallet: 0, total: 0, storeSteps: 1000 };
         // this.playersArr = [this.p1, this.p2, this.p3, this.p4, this.p5, this.p6, this.p7, this.p8, this.p9, this.p10];
         this.playersArr = [
-            this.p1 = new Player({x: 23, y: 10, lable: 2, id: this.extraArr[0], area: "area1", color: "grey"}),
+            this.p1 = new Player({x: 23, y: 10, lable: 2, id: this.extraArr[0], area: "area1", color: "grey", startingSteps: 500}),
 
             this.p2 = new Player({x: 9, y: 2, lable: 3, id: this.extraArr[1], area: "area1", color: "springgreen"}),
             this.p3 = new Player({x: 9, y: 3, lable: 4, id: this.extraArr[2], area: "area1", color: "orange"}),
@@ -73,7 +73,8 @@ class GridSystem {
             this.p7 = new Player({x: 23, y: 2, lable: 8, id: this.extraArr[6], area: "area1", color: "white"}),
             this.p8 = new Player({x: 23, y: 3, lable: 9, id: this.extraArr[7], area: "area1", color: "magenta"}),
             this.p9 = new Player({x: 23, y: 4, lable: 10, id: this.extraArr[8], area: "area1", color: "teal"}),
-            this.p10 = new Player({x: 23, y: 5, lable: 11, id: this.extraArr[9], area: "area1", color: "yellow"})
+            this.p10 = new Player({x: 23, y: 5, lable: 11, id: this.extraArr[9], area: "area1", color: "yellow"}),
+            this.p11 = new Player({x: 23, y: 6, lable: 12, id: this.extraArr[10], area: "area1", color: "hotpink"})
         ];
 
         this.itemsArr = [
