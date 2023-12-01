@@ -37,7 +37,18 @@ const promptMsg = () => {
         sun230pmStudent5: { pinNumber: '2105', nickname: "CJH" },
         sun230pmStudent6: { pinNumber: '5086', nickname: "CED" },
         sun230pmStudent7: { pinNumber: '2167', nickname: "KX" },
-        sun230pmStudent8: { pinNumber: '6588', nickname: "TJY" }
+        sun230pmStudent8: { pinNumber: '6588', nickname: "TJY" },
+
+        newstudent1: { pinNumber: '0001', nickname: "CKH" },
+        newstudent2: { pinNumber: '0002', nickname: "JUN" },
+        newstudent3: { pinNumber: '0003', nickname: "JOE" },
+        newstudent4: { pinNumber: '0004', nickname: "CJ" },
+        newstudent5: { pinNumber: '0005', nickname: "JON" },
+        newstudent6: { pinNumber: '0006', nickname: "LL" },
+        newstudent7: { pinNumber: '0007', nickname: "EX1" },
+        newstudent8: { pinNumber: '0008', nickname: "EX2" },
+        newstudent9: { pinNumber: '0009', nickname: "EX3" },
+        newstudent10: { pinNumber: '0010', nickname: "EX4" }
     }
 
     const getNickname = pinNumber => {
